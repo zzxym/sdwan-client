@@ -1,13 +1,13 @@
-# EasyTier
+# sdwan-client
 
-[![Github release](https://img.shields.io/github/v/tag/EasyTier/EasyTier)](https://github.com/EasyTier/EasyTier/releases)
-[![GitHub](https://img.shields.io/github/license/EasyTier/EasyTier)](https://github.com/EasyTier/EasyTier/blob/main/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/EasyTier/EasyTier)](https://github.com/EasyTier/EasyTier/commits/main)
-[![GitHub issues](https://img.shields.io/github/issues/EasyTier/EasyTier)](https://github.com/EasyTier/EasyTier/issues)
-[![GitHub Core Actions](https://github.com/EasyTier/EasyTier/actions/workflows/core.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/workflows/core.yml)
-[![GitHub GUI Actions](https://github.com/EasyTier/EasyTier/actions/workflows/gui.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/workflows/gui.yml)
-[![GitHub Test Actions](https://github.com/EasyTier/EasyTier/actions/workflows/test.yml/badge.svg)](https://github.com/EasyTier/EasyTier/actions/workflows/test.yml)
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/EasyTier/EasyTier)
+[![Github release](https://img.shields.io/github/v/tag/zzxym/sdwan-client)](https://github.com/zzxym/sdwan-client/releases)
+[![GitHub](https://img.shields.io/github/license/zzxym/sdwan-client)](https://github.com/zzxym/sdwan-client/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/zzxym/sdwan-client)](https://github.com/zzxym/sdwan-client/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/zzxym/sdwan-client)](https://github.com/zzxym/sdwan-client/issues)
+[![GitHub Core Actions](https://github.com/zzxym/sdwan-client/actions/workflows/core.yml/badge.svg)](https://github.com/zzxym/sdwan-client/actions/workflows/core.yml)
+[![GitHub GUI Actions](https://github.com/zzxym/sdwan-client/actions/workflows/gui.yml/badge.svg)](https://github.com/zzxym/sdwan-client/actions/workflows/gui.yml)
+[![GitHub Test Actions](https://github.com/zzxym/sdwan-client/actions/workflows/test.yml/badge.svg)](https://github.com/zzxym/sdwan-client/actions/workflows/test.yml)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/zzxym/sdwan-client)
 
 [简体中文](/README_CN.md) | [English](/README.md)
 

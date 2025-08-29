@@ -1,4 +1,4 @@
-name: EasyTier GUI
+name: sdwan-client GUI
 
 on:
   push:

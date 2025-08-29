@@ -1,20 +1,20 @@
-name: EasyTier Release
+name: sdwan-client Release
 
 on:
   workflow_dispatch:
     inputs:
       core_run_id:
-        description: 'The run id of EasyTier-Core Action in EasyTier repo'
+        description: 'The run id of sdwan-client-Core Action in sdwan-client repo'
         type: number
         default: 10322498549
         required: true
       gui_run_id:
-        description: 'The run id of EasyTier-GUI Action in EasyTier repo'
+        description: 'The run id of sdwan-client-GUI Action in sdwan-client repo'
         type: number
         default: 10322498557
         required: true
       mobile_run_id:
-        description: 'The run id of EasyTier-Mobile Action in EasyTier repo'
+        description: 'The run id of sdwan-client-Mobile Action in sdwan-client repo'
         type: number
         default: 10322498555
         required: true
@@ -46,7 +46,7 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           run_id: ${{ inputs.core_run_id }}
-          repo: EasyTier/EasyTier
+          repo: zzxym/sdwan-client
           path: release_assets
 
       - name: Download GUI Artifact
@@ -54,7 +54,7 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           run_id: ${{ inputs.gui_run_id }}
-          repo: EasyTier/EasyTier
+          repo: zzxym/sdwan-client
           path: release_assets_nozip
 
       - name: Download Mobile Artifact
@@ -62,7 +62,7 @@ jobs:
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           run_id: ${{ inputs.mobile_run_id }}
-          repo: EasyTier/EasyTier
+          repo: zzxym/sdwan-client
           path: release_assets_nozip
 
       - name: Zip release assets
@@ -78,8 +78,8 @@ jobs:
           ls -l -R ./
           chmod -R 755 .
           for x in `ls`; do
-            if [ "$x" = "Easytier-Magisk" ]; then
-              # for Easytier-Magisk, make sure files are in the root of the zip
+            if [ "$x" = "sdwan-client-Magisk" ]; then
+              # for sdwan-client-Magisk, make sure files are in the root of the zip
               cd $x;
               zip -r ../../zipped_assets/$x-${VERSION}.zip .;
               cd ..;
